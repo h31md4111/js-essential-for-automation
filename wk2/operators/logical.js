@@ -9,5 +9,9 @@
 
 //Use case1: AND (&&) check if given val is a text
 
-let val = "Monday"
-console.log(typeof val);
+let val = 10
+if (typeof val === "string" && val.length > 1) {
+    console.log(`Given value : ${val} is valid string`);
+} else {
+    console.log(`Given value : ${val} is NOT valid string`);
+}
