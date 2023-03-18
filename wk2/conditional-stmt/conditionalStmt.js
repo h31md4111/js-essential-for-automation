@@ -45,3 +45,11 @@ if(isSuccess === true) {
         console.log(`>> Fail the test`);
     }
 }
+
+// Use case 6: if in loops
+
+for (let i = 1; i <=10; i++) {
+    if (i === 6) break
+    console.log(i);
+}
+console.log(`>> After the for loop`);
