@@ -29,3 +29,19 @@ if (err === "Error") {
 } else {
     console.log(`>> Print the error message`);
 }
+
+// Use case 5: If else [Inner conditions]: Quering a database for test data
+
+let isSuccess = true
+
+if(isSuccess === true) {
+    console.log(`>> Storing the db values..`);
+} else {
+    console.log(`No data recieved`);
+    let errorCode = "ACCEPT"
+    if(errorCode === "ACCEPT"){
+        console.log(`>>> Continue the execution...`);
+    } else {
+        console.log(`>> Fail the test`);
+    }
+}
